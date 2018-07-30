@@ -2,4 +2,4 @@ Android Project based on guide system where the customer can select and hire a g
 
 Few screenshoots:
 
-<img src="Images/Screenshot_1532966176.png" height="300">
+<img src="Images/Screenshot_1532966176.png" height="400"><img src="Images/Screenshot_1532966176.png" height="400">
