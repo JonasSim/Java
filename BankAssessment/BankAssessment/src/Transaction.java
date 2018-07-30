@@ -1,0 +1,44 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author w1565407
+ */
+class Transaction {
+    
+    private final String CustomerID ;  
+    private final int amount ;
+    
+
+    public String getCustomerID() {
+        return CustomerID;
+    }
+
+     public Transaction( String CID, int amount) {
+         
+        this.CustomerID  = CID ;
+        this.amount = amount ;
+       
+     }
+
+    public String getCID( )  { 
+        return CustomerID; 
+    }
+
+    public int    getAmount( ) {
+        return amount; 
+    }
+
+    public String toString( )
+            
+    {
+        return new String( "[ " + "Customer: " + CustomerID + ", " + 
+                                "Amount: "   + amount +
+                                "]"  ) ;
+     }
+   
+  }
